@@ -1,0 +1,10 @@
+public class Characters {
+    
+    private String[] sfairaCharacters = {"Seth", "Seraph", "Aurelius", "Agnis", "Verlierer", "Fvyina"};
+
+    public String getCharacter(int choose){
+        
+        return sfairaCharacters[choose];
+    }
+
+}
